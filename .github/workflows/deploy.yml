@@ -4,8 +4,6 @@
 name: TsinghuaDaily Report
 
 on:
-  push:
-    branches: [ master ]
   # 每天北京时间 10点整 (utc+8)自动运行
   schedule:
     - cron: "0 2 * * *"
